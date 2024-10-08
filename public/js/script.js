@@ -32,3 +32,5 @@ socket.on("recieve-location",(data)=>{
         markers[id]=L.marker([latitude,longitude]).addTo(map);
     }
 })
+
+//project is done
